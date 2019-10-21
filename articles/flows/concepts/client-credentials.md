@@ -25,7 +25,7 @@ With machine-to-machine (M2M) applications, such as CLIs, daemons, or services r
 1. Your app authenticates with the Auth0 Authorization Server using its Client ID and Client Secret ([**/oauth/token** endpoint](/api/authentication?http#client-credentials-flow)).
 2. Your Auth0 Authorization Server validates the Client ID and Client Secret.
 3. Your Auth0 Authorization Server responds with an Access Token.
-4. Your application can use the Access Token to call an API on behalf of itself.
+4. Your application can use the Access Token to call an API on behalf of itself. 
 5. The API responds with requested data.
 
 
